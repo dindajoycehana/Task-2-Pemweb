@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+
+<body>
+  <div class="container">
+    <div class="logo">
+        <h2>Cabskuy</h2>
+
+    <div class="box form-box">
+      <header>Create Account</header>
+      <form action="" method="post">
+        <div class="field input">
+            <table>
+                <tr>
+                    <th><label for="namadepan">Nama Depan</label></th>
+                    <th><label for="namabelakang">Nama Belakang</label></th>
+                </tr>
+                <tr>
+                    <th><input type="text" name="namadepan" id="namadepan" autocomplete="off" required></th>
+                    <th><input type="text" name="namabelakang" id="namabelakang" autocomplete="off" required></th>
+                </tr>
+        </table>
+        </div>
+
+        <div class="field input">
+          <label for="ttl">Tanggal Lahir</label>
+          <input type="date" name="ttl" id="ttl" autocomplete="off" required>
+        </div>
+
+        <div class="field input">
+            <label for="gender">Jenis Kelamin</label>
+            <div class="select" style="height: 30px;">
+                <select>
+                    <option value="">Pilih</option>
+                    <option value="laki-laki">Laki-Laki</option>
+                    <option value="female">Perempuan</option>
+                </select>
+            </div> 
+        </div>
+
+        <div class="field input">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" autocomplete="off" required>
+        </div>
+
+        <div class="field input">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" autocomplete="off" required>
+        </div>
+
+        <div class="field">
+          <input type="submit" class="button" name="submit" value="Daftar" required>
+        </div>
+
+        <div class="links">
+          <p>Sudah punya akun? <a href="Login.html">Masuk</a></p>
+        </div>
+        </form>
+        </div>
+        </div>
+  </div>
+
+</body>
+</html>
